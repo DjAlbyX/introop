@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albert Filip</title>
+    <link rel="stylesheet" href="intro.css">
+    <script src="intro.js"></script>
+</head>
+
+<body id="body">
+    <div id="darkmode">
+        <button id="darkmodeButton" onclick="darkMode()">light/night</button>
+    </div>
+
+    <h1>
+    <div class="om">Mer om meg</div>
+        <img src="imgal/IMG_0838.JPG" alt="Albert Filip" width="100" height="134" loading="lazy">
+
+        <hr>
+
+        <div class="cards">
+            <div class="card">
+                <div class="head blue" onclick="showinfo()">Info</div>
+                <div id="cardinfo"></div>
+            </div>
+
+            <div class="card">
+                <div class="head red" onclick="showhobby()">Hobbies</div>
+                <div id="cardhobby"></div>
+            </div>
+        </div>
+        
+    </h1>
+</body>
+
+<script>
+    var doc1 = document.getElementById('cardinfo');
+    var doc2 = document.getElementById('cardhobby');
+    var body = document.getElementById('body')
+    var darkmodeButton = document.getElementById('darkmodeButton')
+</script>
+
+</html>
+<!-- n introduksjonstekst om deg,
+en liste som viser noen av hobbyene dine,
+et bilde av deg
+en knapp du kan trykke på som endrer bakgrunnsfarge på noe på nettsiden.
+ -->
+
+
+ 
